@@ -1,0 +1,44 @@
+.navbar {
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    width: auto;
+    padding-left: 15%;
+    padding-right: 15%;
+    border-bottom: 2px solid blue;
+ }
+
+.navbar-brand {
+    float: left;
+    font-weight: bold;
+    text-align: center;
+    font-size: 32px;
+    padding: 10px;
+}
+
+.nav-item {
+    float: right;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+ }
+  
+.nav-item .active {
+    color: red;
+    font-weight: bold;
+ }
+
+.nav-item .active:hover {
+    background-color: #4aaaa5 !important;
+    color: black !important;
+ }
+
+ footer {
+    font-size: .5em;
+    border-top: 2px solid blue;
+    font-size: .85em;
+    font-family: 'Montserrat', sans-serif;
+    color: darkslategray;
+    bottom: 10px;
+    text-align: center;
+    position: sticky;
+}

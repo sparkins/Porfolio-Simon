@@ -1,0 +1,28 @@
+body {
+    font-size: .85em;
+    font-family: 'Montserrat', sans-serif;
+    color: darkslategray;
+}
+
+/* Styling for About Me page */
+.card {
+    height: 100%;
+    border: 1px solid blue;
+}
+ 
+.card-header {
+    border-bottom: 1px solid blue;
+} 
+
+.card-footer {
+    border-top: 1px solid blue;
+}
+
+.container .floatImage {
+    float:left;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    width: 150px; 
+    height: 150px;
+}
