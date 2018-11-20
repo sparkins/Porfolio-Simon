@@ -1,44 +1,50 @@
 .navbar {
     overflow: hidden;
     font-family: 'Montserrat', sans-serif;
+    background-color: #e3f2fd;
+    border: 2px solid darkgray;
     width: auto;
     padding-left: 15%;
     padding-right: 15%;
-    border-bottom: 2px solid blue;
  }
 
-.navbar-brand {
+.navbar .navbar-brand {
     float: left;
+    color: darkslategray;
     font-weight: bold;
     text-align: center;
     font-size: 32px;
-    padding: 10px;
+    padding-top: 15px;
 }
 
-.nav-item {
+.navbar .nav-item {
     float: right;
+    color: darkslategray;
     text-align: center;
-    padding: 10px;
-    font-size: 16px;
+    padding: 15px 15px;
+    font-size: 17px;
  }
   
-.nav-item .active {
-    color: red;
-    font-weight: bold;
+.navbar .nav-item .active {
+    background-color: rgb(173, 65, 65) !important;
+    color: white !important;
  }
 
-.nav-item .active:hover {
-    background-color: #4aaaa5 !important;
+.navbar .nav-item .active:hover {
+    /* background-color: #4aaaa5 !important; */
     color: black !important;
  }
 
- footer {
-    font-size: .5em;
-    border-top: 2px solid blue;
-    font-size: .85em;
+ /* Footer Styling */
+.footer {
+    font-size: 0.75em;
+    border: 2px solid darkgray;
     font-family: 'Montserrat', sans-serif;
+    background-color: #e3f2fd;
     color: darkslategray;
-    bottom: 10px;
-    text-align: center;
-    position: sticky;
+    text-align: center;    
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    padding: 5px;
 }
