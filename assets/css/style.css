@@ -51,6 +51,11 @@ body {
     height: 200px;
 }
 
+#portfolio-container {
+    background-color: #f5f3f3;
+    border: none;
+}
+
 #portfolio-card {
     border-width: 0;
     border-bottom: 0.5px;
