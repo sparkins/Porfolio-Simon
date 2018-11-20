@@ -17,38 +17,27 @@ body {
     margin-top: 10px;
 }
 
-/* Styling for About Me page */
+.card {
+    width: auto;
+    border: 1px solid #999;
+}
+
+#aboutme-card {
+    border-width: 0;
+    border-bottom: 0.5px;
+    border-bottom-color: #cec6c6;
+    border-bottom-style: inset;
+}
+
 .card-header {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: bold; 
     color: darkslategray;
-    padding-left: 15px;
+    /* padding-left: 15px; */
     margin: 10px;
-}
-
-#portfolio-card-title {
-    text-align: center;
-    width: 250px;
-}
-
-#portfolio-card-text {
-    width: 250px;
-}
-
-#portfolio-card-footer {
-    text-align: center;
-    width: 250px;
-}
-
-.card {
-    /* height: 100%; */
-    width: auto;
-    border: 1px solid #999;
-}
-  
-.card-footer {
-    border-top: 1px solid #999;
+    background-color: inherit;
+    border: none;
 }
 
 .floatImage {
@@ -56,35 +45,23 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
     width: 200px; 
     height: 200px;
 }
 
-.card-text {
-    padding-left: 15px;
-    padding-right: 15px;
-} 
-
-/* Styling for the Portfolio Page */
-.portfolioContainer {
-    clear: both;
-    overflow: auto;
+#portfolio-card {
+    border-width: 0;
+    border-bottom: 0.5px;
+    border-bottom-color: #cec6c6;
+    border-bottom-style: inset;
 }
 
-#portfolio-header {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    font-weight: bold; 
-    color: darkslategray;
-    padding-left: 15px;
-    margin: 10px;
-}
-
-.portfolioImage {
-    float: left;
-    padding: 10px;
-    width: 200px;
-    height: 200px;
+#portfolio-card-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px; 
 }
 
 /* Styling for the Contacts Page */

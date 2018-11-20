@@ -1,7 +1,7 @@
 .navbar {
     overflow: hidden;
     font-family: 'Montserrat', sans-serif;
-    background-color: #e3f2fd;
+    background-color: #e3f2fd !important;
     border: 2px solid darkgray;
     width: auto;
     padding-left: 15%;
@@ -10,7 +10,9 @@
 
 .navbar .navbar-brand {
     float: left;
-    color: darkslategray;
+    /* color: darkslategray; */
+    font-family: 'Montserrat', sans-serif;
+    color: black !important;
     font-weight: bold;
     text-align: center;
     font-size: 32px;
