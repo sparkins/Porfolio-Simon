@@ -41,7 +41,7 @@ body {
 }
 
 .card-text {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .floatImage {
@@ -51,8 +51,8 @@ body {
     padding-top: 5px;
     margin-bottom: 5px;
     margin-right: 5px;
-    width: 150px; 
-    height: 150px;
+    width: 175px; 
+    height: 175px;
 }
 
 #portfolio-container {
@@ -70,7 +70,7 @@ body {
 #portfolio-card-title {
     text-align: center;
     font-weight: bold;
-    font-size: 22px; 
+    font-size: 20px; 
 }
 
 /* Styling for the Contacts section */
